@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    transition: .5s;
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+    background-image: linear-gradient(
+        to left,
+        #27282c,
+        #000
+    );
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header.content {
+    width: 100%;
+    height: 80px;
+    background-image: linear-gradient(
+        to left,
+        #060c21,
+        #181818
+    );
+    color: #ffc506;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -58rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+
+/* Logo */
+
+ion-icon {
+    position: absolute;
+    margin-left: 6.3rem;
+    margin-top: .2rem;
+}
+
+
+.logo:hover {
+    color: #fff;
+    border-bottom: solid 1px #fff;
+}
+
+
+/* Menu */
+
+.content .listaMenu {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+ul li a {
+    color: #ffc506;
+    padding-left: 4rem;
+    width: 5rem;
+}
+
+
+a:hover {
+    color: #fff;
+}
+
+
+ion-icon:hover {
+    transition: .5s;
+}
+
+
+/* Primeira seção */
+
+.primeiraSecao {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem; 
+    color: #ffc506;
+}
