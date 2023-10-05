@@ -135,11 +135,47 @@ ion-icon:hover {
 }
 
 
-img {
-    width: 500px;
-    height: 500px;
+/* #imgColunaEsquerda {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    padding: 0 88rem 0 0;
 }
 
+
+img {
+    width: 200px;
+    height: 200px;
+    padding: 5rem 0 0 0;
+}
+
+
+#imgColunaEsquerda #frango {
+    width: 270px;
+}
+
+
+#imgColunaDireita {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    padding: 0 0 0 88rem;
+}
+*/
+
+#iconPizza {
+    position: absolute;
+    padding: 20rem 2rem 3rem 3rem;
+    margin: 20rem 2rem 3rem 3rem;
+}
 
 
 /* Segunda Seção Sobre nós */
@@ -153,7 +189,7 @@ img {
     justify-content: center;
     align-items: center;
     margin-top: 88rem;
-}
+} */
 
 
 #sobreNos {
