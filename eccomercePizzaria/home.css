@@ -135,6 +135,20 @@ ion-icon:hover {
 }
 
 
+/* Icones de fundo */
+
+.imgColunaEsquerda img {
+    position: absolute;
+    margin: -14rem 0 0 -83rem;
+}
+
+
+.imgColunaDireita img {
+    position: absolute;
+    margin: -13.5rem 0 0 0rem;
+}
+
+
 /* #imgColunaEsquerda {
     position: absolute;
     display: flex;
@@ -189,7 +203,7 @@ img {
     justify-content: center;
     align-items: center;
     margin-top: 88rem;
-} */
+} 
 
 
 #sobreNos {
