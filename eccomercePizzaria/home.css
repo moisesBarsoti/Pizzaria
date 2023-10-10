@@ -349,3 +349,27 @@ img {
 #esfihas h2:hover {
     text-decoration: underline;
 }
+
+
+/* Brotos */
+
+#brotos {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20rem;
+    margin: -28rem 0 0 86rem;
+}
+
+
+#brotos h2 {
+    color: #fff;
+    padding: 1rem 0 0 0;
+}
+
+
+#brotos h2:hover {
+    text-decoration: underline;
+}
