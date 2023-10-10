@@ -219,7 +219,8 @@ img {
 
 #sobreNos h2 {
     font-size: 2.8rem;
-    padding: 0 3rem 4rem 0 ;
+    padding: 0 3rem 4rem 0;
+    color: #ffc506;
 }
 
 
@@ -250,92 +251,101 @@ img {
 
 #terceiraSecao {
     position: absolute;
-    background-color: #27282c;
+    background: linear-gradient(
+        to top,
+        #060c21,
+        #27282c
+    );
     width: 100%;
-    height: 1200px;
+    height: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 194rem;
+    margin-top: 175rem;
 }
 
 
-#titulosDasPizzas {
-    margin-top: -65rem;
-    width: 100rem;
-    position: absolute;
+/* Opções de escolha/ Pizzas Esfihas Combos Brotos */
+
+#opcoesDeEscolha {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    font-size: 2.5rem;
+    width: 110rem;
+    margin-top: -45rem;
     color: #fff;
-}
-
-
-/* Cardápio Salgado */
-
-#cardapioSalgado {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-
-#cardapioSalgado img {
-    width: 300px;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 2rem 0 0 -53rem;
-}
-
-
-/* Botão de ver mais */
-
-.verMais {
-    position: absolute;
-    margin: 70rem 0 0 -88rem;
-}
-
-
-button {
-    width: 10rem;
-    padding: 10px;
-    margin: -10px 0 0 20px;
-    border-radius: 30px;
-    font-size: 1.5rem;
-    background-color: transparent;
-    color: #fff;
-    border: solid 1px #ffc506;
-    cursor: pointer;
-}
-
-
-button:hover {
+    font-size: 25px;
     color: #ffc506;
-    border: solid 1px #fff;
 }
 
 
-/* Cardápio Doce */
+/* Pizzas */
 
-#cardapioDoce {
+#pizzas {
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 20rem;
+    margin: -28rem 0 0 -82rem;
 }
 
 
-#cardapioDoce img {
-    width: 300px;
-    height: 300px;
+#pizzas h2 {
+    color: #fff;
+    padding: 1rem 0 0 0;
+}
+
+
+#pizzas h2:hover {
+    text-decoration: underline;
+}
+
+
+/* Combos */
+
+#combos {
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 2rem 0 0 -53rem;
+    width: 20rem;
+    margin: -12rem 0 0 -18rem;
+}
+
+
+#combos h2 {
+    color: #fff;
+    padding: 1rem 0 0 0;
+}
+
+
+#combos h2:hover {
+    text-decoration: underline;
+}
+
+
+/* Esfihas */
+
+#esfihas {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 20rem;
+    margin: -28rem 0 0 32rem;
+}
+
+
+#esfihas h2 {
+    color: #fff;
+    padding: 1rem 0 0 0;
+}
+
+
+#esfihas h2:hover {
+    text-decoration: underline;
 }
